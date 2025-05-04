@@ -37,7 +37,7 @@
 }
 
 * {
-	font-family: 'JetBrainsMono', monospace;	
+	font-family: 'JetBrainsMono', monospace;
 }
 
 .title {
@@ -45,7 +45,7 @@
 }
 
 .social-links {
-	color: var(--fg);
+	color: var(--orange);
 	a {
 		color: var(--green1);
 	}
