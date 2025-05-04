@@ -36,14 +36,29 @@
   --git-delete: #914c54;
 }
 
-.social-links {
-	color: var(--green1);
+* {
+	font-family: 'JetBrainsMono', monospace;	
 }
 
-.social-links a {
+.title {
 	color: var(--green);
+}
+
+.social-links {
+	color: var(--fg);
+	a {
+		color: var(--green1);
+	}
 }
 
 /*.social-links a:visited {*/
 /*	color: var(--green2);*/
 /*}*/
+
+@font-face {
+	font-family: 'JetBrainsMono';
+	src: url('/fonts/JetBrainsMono-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
